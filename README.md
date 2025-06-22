@@ -6,7 +6,6 @@ This is a backend API for an intelligent journaling application, built with Pyth
 
 -   **AI-Powered Analysis**: Submits journal entries to the Google Gemini API to get a `sentimentScore` (from -10 to 10) and a paragraph of supportive `counsel`.
 -   **Structured AI Responses**: Uses `LangChain` with `PydanticOutputParser` to ensure reliable, structured JSON responses from the AI.
--   **Conversational Q&A**: Leverages embeddings and a vector store (`MemoryVectorStore`) to allow users to ask questions about their past entries and receive context-aware answers.
 -   **Persistent Storage**: Fully integrated with a SQL database using `SQLModel` to store all user data, journal entries, and AI analysis results.
 -   **Asynchronous Ready**: Built on FastAPI, providing a high-performance ASGI framework.
 -   **Authentication Structure**: Includes a dependency injection system for user authentication, making it ready for a secure login implementation.
