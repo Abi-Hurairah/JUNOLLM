@@ -1,0 +1,16 @@
+#FastAPI web server
+fastapi
+uvicorn[standard]
+
+#SQLModel and Database Driver
+sqlmodel
+pymysql  # For MySQL. For PostgreSQL, use 'psycopg2-binary' instead.
+
+#LangChain and Google Gemini integration
+langchain
+langchain-google-genai
+
+#Helper libraries
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
