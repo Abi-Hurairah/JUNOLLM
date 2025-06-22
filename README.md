@@ -104,19 +104,3 @@ Success Response:
   "sentimentScore": -7,
   "counsel": "It's completely understandable to feel overwhelmed when facing challenges with an important project. Remember that progress isn't always linear. Take a moment to step back and breathe..."
 }
-
-POST /qa
-Description: Answers a natural language question based on the user's entire journal history.
-
-Headers: Requires an X-User-Id header with the integer ID of an existing user.
-
-Request Body:
-
-{
-  "question": "What was I happy about last week?"
-}
-
-Success Response:
-
-{
-  "answer": "Based on your entries, last
